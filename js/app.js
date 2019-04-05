@@ -51,7 +51,7 @@ function restart() {
     matchedCards = 0;
     timer = 0;
     numMoves = 0;
-    counterStarted = false;
+    timerStarted = false;
     timerHtml.innerHTML = timer;
     clearInterval(timerInterval);
 
